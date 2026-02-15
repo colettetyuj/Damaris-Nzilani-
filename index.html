@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Junior Developer</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&family=Space+Grotesk:wght@300;400;500;700&display=swap"
+        rel="stylesheet">
+    <!-- Favicon -->
+    <link rel="icon" href="./assets/img/about.jpeg" type="image/jpeg">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Header / Navbar -->
+    <header class="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">Damaris<span>Nzilani</span>.</a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                    <li class="nav__item"><a href="#services" class="nav__link">Services</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                </ul>
+                <div class="nav__close" id="nav-close">
+                    <i class="fa-solid fa-xmark"></i>
+                </div>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="fa-solid fa-bars-staggered"></i>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main">
+        <!-- Home Section -->
+        <section class="home section" id="home">
+            <div class="home__container container grid">
+                <div class="home__content">
+                    <span class="home__subtitle">Hello, I'm</span>
+                    <h1 class="home__title">Damaris <span class="highlight">Nzilani</span></h1>
+                    <h3 class="home__education">Junior Developer</h3>
+                    <p class="home__description">
+                        I build pixel-perfect, engaging, and accessible digital experiences.
+                        Turning ideas into real life products is my calling.
+                    </p>
+                    <div class="home__buttons">
+                        <a href="#contact" class="button button--flex">
+                            Hire Me <i class="fa-regular fa-paper-plane button__icon"></i>
+                        </a>
+                        <a href="./assets/docs/web development cat 2.docx" class="button button--ghost">Download CV</a>
+                    </div>
+                    <div class="home__social">
+                        <a href="#" target="_blank" class="home__social-icon"><i class="fa-brands fa-github"></i></a>
+                        <a href="#" target="_blank" class="home__social-icon"><i
+                                class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="#" target="_blank" class="home__social-icon"><i class="fa-brands fa-dribbble"></i></a>
+                    </div>
+                </div>
+
+                <div class="home__handle">
+                    <!-- Placeholder for 3D Image -->
+                    <div class="home__img-wrapper">
+                        <img src="./assets/img/hero.jpeg" alt="Hero Image" class="home__blob-img">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="about section" id="about">
+            <div class="about__container container grid">
+                <div class="about__img-wrapper">
+                    <img src="./assets/img/about.jpeg" alt="About Image" class="about__img">
+                </div>
+
+                <div class="about__data">
+                    <h2 class="section__title">About Me</h2>
+                    <span class="section__subtitle">My Introduction</span>
+                    <p class="about__description">
+                        I am a passionate Junior Developer recently graduated from Tech University.
+                        My journey began with a curiosity for how websites work, which quickly turned into a love for
+                        coding.
+                        I specialize in building modern web applications with a focus on user experience and clean code.
+                    </p>
+                    <div class="about__info">
+                        <div class="about__box">
+                            <i class="fa-solid fa-medal about__icon"></i>
+                            <h3 class="about__title">Experience</h3>
+                            <span class="about__subtitle">1 Year Working</span>
+                        </div>
+                        <div class="about__box">
+                            <i class="fa-solid fa-briefcase about__icon"></i>
+                            <h3 class="about__title">Completed</h3>
+                            <span class="about__subtitle">10+ Projects</span>
+                        </div>
+                        <div class="about__box">
+                            <i class="fa-solid fa-headset about__icon"></i>
+                            <h3 class="about__title">Support</h3>
+                            <span class="about__subtitle">Online 24/7</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="skills section" id="skills">
+            <h2 class="section__title">My Skills</h2>
+            <span class="section__subtitle">What I work with</span>
+
+            <div class="skills__container container grid">
+                <!-- Skill 1: HTML -->
+                <div class="skills__card">
+                    <i class="fa-brands fa-html5 skills__icon"></i>
+                    <h3 class="skills__name">HTML</h3>
+                    <span class="skills__level">Advanced</span>
+                    <div class="skills__details">
+                        <ul class="skills__list">
+                            <li>Clean, semantic HTML5 architecture</li>
+                            <li>Search engine optimized structure</li>
+                            <li>WCAG 2.1 compliance standards</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Skill 2: CSS -->
+                <div class="skills__card">
+                    <i class="fa-brands fa-css3-alt skills__icon"></i>
+                    <h3 class="skills__name">CSS</h3>
+                    <span class="skills__level">Advanced</span>
+                    <div class="skills__details">
+                        <ul class="skills__list">
+                            <li>Complex layouts with Flexbox & Grid</li>
+                            <li>Smooth CSS3 transitions & keyframes</li>
+                            <li>Mobile-first responsive methodology</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Skill 3: JavaScript -->
+                <div class="skills__card">
+                    <i class="fa-brands fa-js skills__icon"></i>
+                    <h3 class="skills__name">JavaScript</h3>
+                    <span class="skills__level">Intermediate</span>
+                    <div class="skills__details">
+                        <ul class="skills__list">
+                            <li>Modern ES6+ syntax & modules</li>
+                            <li>Dynamic DOM interaction & logic</li>
+                            <li>Asynchronous data handling</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Skill 4: React -->
+                <div class="skills__card">
+                    <i class="fa-brands fa-react skills__icon"></i>
+                    <h3 class="skills__name">React</h3>
+                    <span class="skills__level">Intermediate</span>
+                    <div class="skills__details">
+                        <ul class="skills__list">
+                            <li>Reusable functional architecture</li>
+                            <li>Advanced state management with Hooks</li>
+                            <li>Global state integration (Redux/Context)</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Skill 5: Git -->
+                <div class="skills__card">
+                    <i class="fa-brands fa-git-alt skills__icon"></i>
+                    <h3 class="skills__name">Git</h3>
+                    <span class="skills__level">Intermediate</span>
+                    <div class="skills__details">
+                        <ul class="skills__list">
+                            <li>Efficient source control workflows</li>
+                            <li>Collaborative branching strategies</li>
+                            <li>CI/CD & repository management</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Skill 6: Figma -->
+                <div class="skills__card">
+                    <i class="fa-brands fa-figma skills__icon"></i>
+                    <h3 class="skills__name">Figma</h3>
+                    <span class="skills__level">Basic</span>
+                    <div class="skills__details">
+                        <ul class="skills__list">
+                            <li>Low & High-fidelity wireframing</li>
+                            <li>Interactive user flow prototyping</li>
+                            <li>Design systems & visual hierarchy</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Skill 7: Command Line -->
+                <div class="skills__card">
+                    <i class="fa-solid fa-terminal skills__icon"></i>
+                    <h3 class="skills__name">Command Line</h3>
+                    <span class="skills__level">Intermediate</span>
+                    <div class="skills__details">
+                        <ul class="skills__list">
+                            <li>Shell navigation & automation</li>
+                            <li>Package management & build tools</li>
+                            <li>Server & file system operations</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section class="services section" id="services">
+            <h2 class="section__title">My Services</h2>
+            <span class="section__subtitle">What I Offer</span>
+
+            <div class="services__container container grid">
+                <div class="services__card">
+                    <i class="fa-solid fa-code services__icon"></i>
+                    <h3 class="services__title">UI/UX <br> Design</h3>
+                    <p class="section__description">
+                        I design intuitive and accessible user interfaces that prioritize user needs.
+                        My process involves wireframing, prototyping, and user testing to ensure seamless navigation and
+                        delightful experiences across all digital touchpoints.
+                    </p>
+                </div>
+
+                <div class="services__card">
+                    <i class="fa-solid fa-laptop-code services__icon"></i>
+                    <h3 class="services__title">Frontend <br> Development</h3>
+                    <p class="section__description">
+                        I specialize in building responsive, high-performance web applications using modern technologies
+                        like React, HTML5, and CSS3.
+                        I write clean, maintainable code to bring designs to life with smooth animations and
+                        interactivity.
+                    </p>
+                </div>
+
+                <div class="services__card">
+                    <i class="fa-solid fa-mobile-screen services__icon"></i>
+                    <h3 class="services__title">Mobile <br> Optimization</h3>
+                    <p class="section__description">
+                        I ensure your website performs perfectly on every device, from smartphones to large desktop
+                        monitors.
+                        I use fluid grids and flexible images to create layouts that adapt seamlessly to any screen
+                        size.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact section" id="contact">
+            <h2 class="section__title">Get in Touch</h2>
+            <span class="section__subtitle">Contact Me</span>
+
+            <div class="contact__container container">
+                <div class="contact__bg">
+                    <div class="contact__content">
+                        <h3 class="contact__title">Talk to me</h3>
+
+                        <div class="contact__info">
+                            <div class="contact__card">
+                                <i class="fa-regular fa-envelope contact__card-icon"></i>
+                                <h3 class="contact__card-title">Email</h3>
+                                <span class="contact__card-data">damariscolette9@gmail.com</span>
+                                <a href="mailto:damariscolette9@gmail.com" class="contact__button">Write me <i
+                                        class="fa-solid fa-arrow-right contact__button-icon"></i></a>
+                            </div>
+                            <div class="contact__card">
+                                <i class="fa-brands fa-whatsapp contact__card-icon"></i>
+                                <h3 class="contact__card-title">Whatsapp</h3>
+                                <span class="contact__card-data">+254 702 589412</span>
+                                <a href="https://wa.me/254702589412" target="_blank" class="contact__button">Write me <i
+                                        class="fa-solid fa-arrow-right contact__button-icon"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact__content">
+                        <h3 class="contact__title">Write me your project</h3>
+
+                        <form action="" class="contact__form">
+                            <div class="contact__form-div">
+                                <label class="contact__form-tag">Name</label>
+                                <input type="text" placeholder="Insert your name" class="contact__form-input">
+                            </div>
+
+                            <div class="contact__form-div">
+                                <label class="contact__form-tag">Mail</label>
+                                <input type="email" placeholder="Insert your email" class="contact__form-input">
+                            </div>
+
+                            <div class="contact__form-div contact__form-area">
+                                <label class="contact__form-tag">Project</label>
+                                <textarea cols="30" rows="10" placeholder="Write your project"
+                                    class="contact__form-input"></textarea>
+                            </div>
+
+                            <button class="button">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer__container container">
+            <h1 class="footer__title">Alex</h1>
+
+            <div class="footer__social">
+                <a href="#" class="footer__social-link"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#" class="footer__social-link"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#" class="footer__social-link"><i class="fa-brands fa-twitter"></i></a>
+            </div>
+
+            <span class="footer__copy">&#169; 2024 Damaris Nzilani. All rights reserved.</span>
+        </div>
+    </footer>
+
+    <!-- Scroll Up -->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="fa-solid fa-arrow-up scrollup__icon"></i>
+    </a>
+
+    <!-- Main JS -->
+    <script src="script.js"></script>
+</body>
+
+</html>
